@@ -6,7 +6,7 @@ html{
 
 body{
 	font: 20px/26px arial, sans-serif;
-	background-color: #f2f2f2;
+	background-color: #fff;
 	margin-top: 30px;
 }
 
@@ -66,7 +66,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
 } 
 
 
@@ -76,7 +76,7 @@ h2 {
 
 
 h3 {
-	font-size: 30px;
+	font-size: 23px;
 	margin-bottom: 45px;
 }
 
@@ -101,9 +101,6 @@ section {
 	font-size: 22px; 
 }
 
-.location {
-	background-color: #d9d9d9;
-}
 
 .sistem {
 	background-color: #9999ff;
@@ -130,15 +127,14 @@ section {
 
 .footer {
 	position: absolute;
-	bottom: 0;
+	top: 100px;
 	width: 100%;
 	height: 175px;
 	background-color: #f2f2f2;
 
 }
 
-.col-sm-12 {
-	font-size: 70px;
-
+.panel-footer {
+font-color:#000;
 }
 

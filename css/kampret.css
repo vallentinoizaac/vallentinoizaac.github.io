@@ -5,7 +5,7 @@ body, html {
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url("bulshit.jpg");
+    background-image: url("kari-shea-272383-unsplash copy.png");
 
     /* Set a specific height */
     height: 50%;
@@ -18,15 +18,15 @@ body, html {
 }
 
 /* Place text in the middle of the image */
-
 h3 {
    -webkit-text-stroke: 0px black;
    color: white;
    text-shadow:
-
-    1px -1px 0 #000,
-   -1px -1px 0 #000;
-     
+       
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 h1 {
@@ -40,38 +40,48 @@ h1 {
        1px 1px 0 #000;
 }
 
-
-h4 {
-   -webkit-text-stroke: 0px white;
-   color: #0000e6;
-   text-shadow:
-       
-     -1px -1px 0 #fff,  
-      1px -1px 0 #fff,
-      -1px 1px 0 #fff,
-       1px 1px 0 #fff;
-}
-
-
-
-
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 60%;
-    left: 53%;
-    transform: translate(-50%, -50%);
-    color: #ccff33;
-}
-
 .centered {
    -webkit-text-stroke: 0px black;
    color: white;
    text-shadow:
-
-   -1px -1px 0 #000,  
+       
+     -1px -1px 0 #000,  
       1px -1px 0 #000,
       -1px 1px 0 #000,
        1px 1px 0 #000;
-   
+}
+
+p {
+   -webkit-text-stroke: 0px white;
+   color: #99ff66;
+   text-shadow:
+        
+      -1px 1px 0 #000;
+       
+}
+
+
+
+h2 {
+   -webkit-text-stroke: 0px black;
+   color: white;
+   text-shadow:
+       
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+h3 {
+  font-size: 40px;
 }
