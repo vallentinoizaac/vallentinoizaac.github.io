@@ -53,10 +53,13 @@ h1 {
 
 p {
    -webkit-text-stroke: 0px white;
-   color: #99ff66;
+   color: black;
    text-shadow:
         
-      -1px 1px 0 #000;
+    -1px -1px 0 #fff, 
+     1px -1px 0 #fff, 
+    -1px  1px 0 #fff, 
+      1px 1px 0 #fff;
        
 }
 
