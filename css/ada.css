@@ -37,6 +37,10 @@ body{
 	
 }
 
+.hero-text {
+  padding-bottom: 100px;
+}
+
 
  /* Container holding the image and the text */
 .container {
@@ -179,6 +183,45 @@ section {
 
 
 
+
+
+.about {
+    background-color: #d0d5d4;
+    font-size: 22px; 
+  }
+.gallery {
+  background-color: #eaeaea;
+}
+
+h4 {
+	font-size: 20px;
+	position: center;
+}
+
+h5 {
+  font-size: 2vw;
+}
+
+  
+  /*container di about dkk*/
+  .container {
+    position: relative;
+    max-width: 900px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+}
+
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    color: #f1f1f1; /* Grey text */
+    width: 95%; /* Full width */
+    padding: 20px; /* Some padding */
+
+}
+
+/*akhir container di about dkk*/
+
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -191,18 +234,7 @@ section {
     color:#fff;
     background-color: #000;
   }
-
-.about {
-	background-color: #eaeaea;
-}
-
-.gallery {
-  background-color: #eaeaea;
-}
-
-h4 {
-	font-size: 20px;
-	position: center;
-}
-
-
+.form-group {
+    color:#000;
+    text-align: center;
+  }

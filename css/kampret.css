@@ -5,7 +5,7 @@ body, html {
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url("kari-shea-272383-unsplash copy.png");
+    background-image: url("valen 4.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -87,4 +87,16 @@ h2 {
 
 h3 {
   font-size: 40px;
+}
+
+h5 {
+   -webkit-text-stroke: 0px black;
+   color: white;
+   text-shadow:
+
+   -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+   
 }
