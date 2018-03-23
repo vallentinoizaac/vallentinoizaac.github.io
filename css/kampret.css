@@ -8,14 +8,15 @@ body, html {
     background-image: url("valentino.jpg");
 
     /* Set a specific height */
-    height: 50%;
+    height: 70vw;
+
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 5vw;
     background-size: cover;
     position: relative;
+
 }
 
 /* Place text in the middle of the image */
