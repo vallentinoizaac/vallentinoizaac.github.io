@@ -201,6 +201,10 @@ section {
   background-color: #eaeaea;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 h4 {
 	font-size: 20px;
 	position: center;
