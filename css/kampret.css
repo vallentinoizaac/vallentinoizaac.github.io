@@ -8,13 +8,13 @@ body, html {
     background-image: url("kari-shea-272383-unsplash copy.png");
 
     /* Set a specific height */
-    height: 46%;
+    height: 50%;
 
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 30vw;
+    background-size: 70vw;
     background-size: cover;
     position: relative;
     padding-top: 100px
