@@ -38,8 +38,13 @@ body{
 }
 
 .hero-text {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
+
+
 }
+
+
+
 
 
  /* Container holding the image and the text */
@@ -80,6 +85,9 @@ section {
 	background-color: #c2c2a3;
 }
 
+.skils {
+  background-color: #9ea19e;
+}
 
 /*Slide punya*/
 * {box-sizing:border-box}
@@ -159,7 +167,7 @@ section {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #600ee7;
 }
 
 /* Fading animation */
@@ -200,6 +208,11 @@ h4 {
 
 h5 {
   font-size: 2vw;
+}
+
+h6 {
+  font-size: 5vw; 
+
 }
 
   
